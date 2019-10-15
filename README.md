@@ -1,2 +1,2 @@
 ## This is my first javaScript App
-jlk
+It is a personal Expense App
