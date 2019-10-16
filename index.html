@@ -77,6 +77,8 @@
         const inputDescEl= document.querySelector("#inputDesc");
         // Get reference to table
         const expenseTableEl= document.querySelector("#expenseTable");
+        
+
 
         // Initial value of expense at 0        
         let totalExpense= 0;    
@@ -159,6 +161,7 @@
                     </span>
                     <button 
                     type="button" 
+                    id="deleteBtn"
                     onclick="deleteItem(${moment.valueOf()})"
                     class="btn btn-outline-danger btn-sm">
                         <i class="fas fa-trash-alt"></i>
